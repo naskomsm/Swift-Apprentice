@@ -109,3 +109,5 @@ func printAllSum(target: Int) -> [Int] {
 for n in 2...12 {
     print(printAllSum(target: n).chunked(into: 2))
 }
+
+
